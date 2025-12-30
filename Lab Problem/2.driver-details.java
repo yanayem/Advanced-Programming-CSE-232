@@ -15,7 +15,7 @@ class Driver {
     int tripsCompleted;
     double earningPerTrip;
 
-    void setEBook(String n, int trips, double earning) {
+    void setDriver(String n, int trips, double earning) {
         name = n;
         tripsCompleted = trips;
         earningPerTrip = earning;
@@ -47,4 +47,5 @@ public class Main {
         drv2.calculateTotalEarnings();
         drv2.showDriver();
     }
+
 }
